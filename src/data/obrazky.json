@@ -94,5 +94,53 @@
 			"sirka": 800,
 			"vyska": 1200
 		}
+	},
+	{
+		"popisek": "Padající listí",
+		"soubor": "padajici-listi.jpg",
+		"nahled": {
+			"sirka": 194,
+			"vyska": 194
+		},
+		"original": {
+			"sirka": 800,
+			"vyska": 533
+		}
+	},
+	{
+		"popisek": "Lávka",
+		"soubor": "lavka.jpg",
+		"nahled": {
+			"sirka": 194,
+			"vyska": 194
+		},
+		"original": {
+			"sirka": 800,
+			"vyska": 533
+		}
+	},
+	{
+		"popisek": "Jablka",
+		"soubor": "jablka.jpg",
+		"nahled": {
+			"sirka": 194,
+			"vyska": 194
+		},
+		"original": {
+			"sirka": 800,
+			"vyska": 533
+		}
+	},
+	{
+		"popisek": "Slunce",
+		"soubor": "slunce.jpg",
+		"nahled": {
+			"sirka": 194,
+			"vyska": 194
+		},
+		"original": {
+			"sirka": 800,
+			"vyska": 533
+		}
 	}
 ]

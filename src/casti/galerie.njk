@@ -1,18 +1,8 @@
 <div class="galerie">
-	<div class="galerie__polozka">
-		<img class="galerie__obrazek" src="/obrazky/nahled/padajici-listi.jpg" alt="Padající listí" width="194" height="194">
-		<h3 class="galerie__popisek">Padající listí</h3>
-	</div>
-	<div class="galerie__polozka">
-		<img class="galerie__obrazek" src="/obrazky/nahled/dyne.jpg" alt="Dýně" width="194" height="194">
-		<h3 class="galerie__popisek">Dýně</h3>
-	</div>
-	<div class="galerie__polozka">
-		<img class="galerie__obrazek" src="/obrazky/nahled/jezero.jpg" alt="Jezero" width="194" height="194">
-		<h3 class="galerie__popisek">Jezero</h3>
-	</div>
-	<div class="galerie__polozka">
-		<img class="galerie__obrazek" src="/obrazky/nahled/les.jpg" alt="Les" width="194" height="194">
-		<h3 class="galerie__popisek">Les</h3>
-	</div>
+	{% for obrazek in obrazky %}
+		<a href="/obrazek/{{ obrazek.popisek | slug }}/" class="galerie__polozka">
+			<img class="galerie__obrazek" src="/obrazky/nahled/{{ obrazek.soubor }}" alt="{{ obrazek.popisek }}" width="{{ obrazek.nahled.sirka }}" height="{{ obrazek.nahled.vyska }}">
+			<h3 class="galerie__popisek">{{ obrazek.popisek }}</h3>
+		</a>
+	{% endfor %}
 </div>

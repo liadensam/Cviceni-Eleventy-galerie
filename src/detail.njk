@@ -10,8 +10,8 @@ permalink: "/obrazek/{{ obrazek.popisek | slug }}/"
 <a href="/" class="nadpis">
 	<div class="nadpis__zpet">Zpět</div>
 	<h2 class="nadpis__popisek">
-		Padající listí
+		{{ obrazek.popisek }}
 	</h2>
 </a>
 
-<img class="original" src="/obrazky/original/padajici-listi.jpg" alt="Padající listí" width="1920" height="1280">
+<img class="original" src="/obrazky/original/{{ obrazek.soubor }}" alt="{{ obrazek.popisek }}" width="{{ obrazek.original.sirka }}" height="{{ obrazek.original.vyska }}">

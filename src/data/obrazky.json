@@ -1,0 +1,98 @@
+[
+	{
+		"popisek": "Jezero",
+		"soubor": "jezero.jpg",
+		"nahled": {
+			"sirka": 194,
+			"vyska": 194
+		},
+		"original": {
+			"sirka": 800,
+			"vyska": 628
+		}
+	},
+	{
+		"popisek": "List",
+		"soubor": "list.jpg",
+		"nahled": {
+			"sirka": 194,
+			"vyska": 194
+		},
+		"original": {
+			"sirka": 800,
+			"vyska": 534
+		}
+	},
+	{
+		"popisek": "Les",
+		"soubor": "les.jpg",
+		"nahled": {
+			"sirka": 194,
+			"vyska": 194
+		},
+		"original": {
+			"sirka": 800,
+			"vyska": 1198
+		}
+	},
+	{
+		"popisek": "Dýně",
+		"soubor": "dyne.jpg",
+		"nahled": {
+			"sirka": 194,
+			"vyska": 194
+		},
+		"original": {
+			"sirka": 800,
+			"vyska": 1200
+		}
+	},
+	{
+		"popisek": "Cesta",
+		"soubor": "cesta.jpg",
+		"nahled": {
+			"sirka": 194,
+			"vyska": 194
+		},
+		"original": {
+			"sirka": 800,
+			"vyska": 532
+		}
+	},
+	{
+		"popisek": "Park",
+		"soubor": "park.jpg",
+		"nahled": {
+			"sirka": 194,
+			"vyska": 194
+		},
+		"original": {
+			"sirka": 800,
+			"vyska": 600
+		}
+	},
+	{
+		"popisek": "Lavička",
+		"soubor": "lavicka.jpg",
+		"nahled": {
+			"sirka": 194,
+			"vyska": 194
+		},
+		"original": {
+			"sirka": 800,
+			"vyska": 1067
+		}
+	},
+	{
+		"popisek": "Pole",
+		"soubor": "pole.jpg",
+		"nahled": {
+			"sirka": 194,
+			"vyska": 194
+		},
+		"original": {
+			"sirka": 800,
+			"vyska": 1200
+		}
+	}
+]

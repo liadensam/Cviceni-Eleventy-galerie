@@ -1,0 +1,53 @@
+.galerie {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 0.5rem;
+
+	&__polozka {
+		position: relative;
+		display: flex;
+		max-width: 12.125rem;
+
+		&:is(a) {
+			&::before {
+				content: '';
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				background-color: rgba(0, 0, 0, 0.3);
+				opacity: 0;
+				transition: opacity 0.2s;
+			}
+
+			&:hover,
+			&:focus {
+				&::before {
+					opacity: 1;
+				}
+			}
+		}
+	}
+
+	&__obrazek {
+		width: 100%;
+		height: auto;
+	}
+
+	&__popisek {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		color: #ffffff;
+		margin: 1rem;
+		display: flex;
+		text-align: center;
+		justify-content: center;
+		align-items: flex-end;
+		text-shadow: 0 0 0.5rem rgba(0, 0, 0, 1), 0 0 0.5rem rgba(0, 0, 0, 1);
+	}
+}
